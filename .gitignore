@@ -1,0 +1,23 @@
+# PasswordVault - Sensitive files to exclude
+
+# Data files - DO NOT COMMIT
+data/passwords.db
+data/.master_key
+data/.migrated_v2
+
+# Uploaded files
+uploads/*
+!uploads/index.php
+
+# Build outputs / caches
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
